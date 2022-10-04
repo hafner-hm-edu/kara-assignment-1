@@ -11,7 +11,7 @@
     <version>3.3.0</version>
   </parent>
 
-  <artifactId>karalight-assignment</artifactId>
+  <artifactId>karalight-assignment-1</artifactId>
   <version>2022-W-SNAPSHOT</version>
 
   <packaging>jar</packaging>
@@ -20,12 +20,6 @@
   <description>Provides a framework to compile and test KaraLight programs.
     It also integrates Maven and several static analysis tools.
   </description>
-
-  <scm>
-    <connection>scm:git:git://github.com/uhafner/karalight-assignment.git</connection>
-    <developerConnection>scm:git:git@github.com:uhafner/karalight-assignment.git</developerConnection>
-    <url>https://github.com/uhafner/karalight-assignment</url>
-  </scm>
 
   <licenses>
     <license>
@@ -52,8 +46,6 @@
     <project.build.sourceEncoding>${source.encoding}</project.build.sourceEncoding>
 
     <module.name>${project.groupId}.karalight.assignment</module.name>
-
-    <karatest.version>3.3.1</karatest.version>
 
     <!-- Maven Plug-ins Configuration -->
     <asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
